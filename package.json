@@ -1,0 +1,17 @@
+{
+  "name": "wallet-rest",
+  "version": "1.0.0",
+  "description": "wallet rest service",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js --exec babel-node"
+  },
+  "author": "Jesus Sarmiento",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "soap": "^0.32.0"
+  }
+}
